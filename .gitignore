@@ -1,0 +1,12 @@
+@"
+__pycache__/
+*.pyc
+.env
+venv/
+*.log
+.pytest_cache/
+.idea/
+big*.json
+"@ | Out-File -Encoding utf8 .gitignore
+
+Get-Content .gitignore
